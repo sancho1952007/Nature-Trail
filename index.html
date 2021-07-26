@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature Trail</title>
+</head>
+<body onselectstart="return false">
+    <center>
+        <h1>Nature Trail</h1>
+
+        <button id='refresh' onclick="window.location.reload();">Refresh</button>
+    </center>
+    <center>
+        <img id='img' width="97%" alt='Loading Image...'>
+        <br>
+        <img id='img2' width='97%' alt='Loading Image...'>
+        <br>
+        <img id='img3' width='97%' alt='Loading Image...'>
+        <br>
+        <img id='img4' width='97%' alt='Loading Image...'>
+        <h3>
+            Developer: <a onclick='window.open("https://github.com/sancho1952007", "_blank")'>Sancho Godinho</a>
+            <br><br>
+            Image Credits: <a onclick='window.open("https://unsplash.com/", "_blank")'>unsplash</a>
+            <br><br>
+            Cursor, icons: <a onclick='window.open("https://icons8.com", "_blank")'>icons8</a>
+        </h3>
+    </center>
+</body>
+<style>
+    html{
+        cursor: url('images/default.png'), default;
+    }
+    body{
+        background-image: url('images/background.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    h3{
+        color: white;
+        font-size: 30px;
+        font-family: 'Courier New', Courier, monospace;
+        cursor: url('images/default.png'), default;
+    }
+    a{
+        cursor: pointer;
+        cursor: url('images/hand.png'), default;
+    }
+    h1{
+        font-family: 'Courier New', Courier, monospace;
+        color: black;
+        font-size: 40px;
+        cursor: url('images/default.png'), default;
+    }
+    #refresh{
+        background-color: lightgreen;
+        width: 97%;
+        height: 5vh;
+        border: 2px solid lightgreen;
+        margin-bottom: 10px;
+        border-radius: 50px;
+        cursor: url('images/hand.png'), default;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    img{
+        font-family: 'Courier New', Courier, monospace;
+        pointer-events: none;
+        color: white;
+    }
+
+    /* Scroll Bar */
+
+    ::-webkit-scrollbar {
+       width: 20px;
+    }
+    ::-webkit-scrollbar-track {
+    border-radius: 50px;
+    }
+    ::-webkit-scrollbar-thumb{
+        background: lightblue;
+        border-radius: 50px;
+    }
+    ::-webkit-scrollbar-thumb:hover{
+        background: rgb(45, 183, 230);
+    }
+</style>
+<script>
+  function update(){
+    var o=document.getElementById('img');
+    var to=document.getElementById('img2');
+    var thr=document.getElementById('img3');
+    var fo=document.getElementById('img4');
+    fo.src="https://source.unsplash.com/1600x900/?nature,water"
+    thr.src='https://source.unsplash.com/1600x900/?nature,clouds'
+    to.src="https://source.unsplash.com/1600x900/?nature,animals"
+    o.src='https://source.unsplash.com/1600x900/?nature,flowers'
+    }
+    update()
+
+    document.addEventListener('contextmenu', function(e) {
+        e.preventDefault();
+    })
+</script>
+</html>
