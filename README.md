@@ -1,7 +1,12 @@
 # *[Nature-Trail](https://sancho1952007.github.io/Nature-Trail/)*
 
 ## *What is Nature Trail?*
-> ***It is A Peaceful Nature Background.***
+> ***It is A Peaceful Nature Background Generator.***
+
+<br>
+
+# *What is it good for?*
+> ***It is very Good For People who Are in Stress.***
 
 <br>
 
