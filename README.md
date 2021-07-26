@@ -1,4 +1,4 @@
-# *Nature-Trail*
+# *[Nature-Trail](https://sancho1952007.github.io/Nature-Trail/)*
 
 ## *What is Nature Trail?*
 > ***It is A Peaceful Nature Background.***
@@ -6,7 +6,16 @@
 <br>
 
 ## *How Does it Work?*
-> ***It Automatically Generates Nature Backgrounds.***
+> ***It Automatically Generates Nature Backgrounds From [unsplash](https://unsplash.com/).***
+
+<br>
 
 ## *How To Get To The Site?*
-***Ju
+***Just Click*** **[Here](https://sancho1952007.github.io/Nature-Trail/)** ***To Get To The Site...***
+
+<br>
+
+# *Credits*
+>- Developer: ***[Sancho Godinho](https://github.com/sancho1952007)***
+>- Background Images: ***[unsplash](https://unsplash.com/)***
+>- Icons/Cursor: ***[icons8](https://icons8.com)***
