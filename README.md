@@ -16,6 +16,6 @@
 <br>
 
 # *Credits*
->- Developer: ***[Sancho Godinho](https://github.com/sancho1952007)***
->- Background Images: ***[unsplash](https://unsplash.com/)***
->- Icons/Cursor: ***[icons8](https://icons8.com)***
+>- Developer: ***[Sancho Godinho](https://github.com/sancho1952007),***
+>- Background Images: ***[unsplash](https://unsplash.com/),***
+>- Icons/Cursor: ***[icons8](https://icons8.com).***
